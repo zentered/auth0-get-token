@@ -1,0 +1,49 @@
+{
+  "name": "auth0-get-token",
+  "version": "1.0.0",
+  "description": "Getting an access token for your API",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heneise/auth0-get-token.git"
+  },
+  "keywords": [
+    "auth0",
+    "integration testing",
+    "tests",
+    "authentication"
+  ],
+  "author": "Patrick Heneise <patrick@heneise.co> (http://heneise.co)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heneise/auth0-get-token/issues"
+  },
+  "homepage": "https://github.com/heneise/auth0-get-token#readme",
+  "scripts": {
+    "test": "tap --coverage --jobs-auto './test.js'",
+    "pretest": "standard --fix",
+    "lint": "standard --fix",
+    "semantic-release": "semantic-release"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "*.{js,json,md}": [
+        "standard",
+        "git add"
+      ]
+    }
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.16",
+    "standard": "^12.0.1",
+    "tap": "^14.2.2"
+  },
+  "dependencies": {
+    "r2": "^2.0.1"
+  }
+}
