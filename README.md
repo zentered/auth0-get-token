@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/heneise/auth0-get-token.svg?branch=master)](https://travis-ci.com/heneise/auth0-get-token)
+
 # Auth0 Token
 
 Getting an access token for your API.
