@@ -14,7 +14,7 @@ From the auth0 API, copy:
 
 From the auth0 Application, copy:
 
-- Domain as AUTH0_BASE_URL (add https://)
+- Domain as AUTH0_BASE_URL (add `https://`)
 - Client ID
 - Client Secret
 
