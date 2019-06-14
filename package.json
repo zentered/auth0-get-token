@@ -1,5 +1,5 @@
 {
-  "name": "auth0-get-token",
+  "name": "@heneise/auth0-get-token",
   "version": "1.0.0",
   "description": "Getting an access token for your API",
   "main": "index.js",
